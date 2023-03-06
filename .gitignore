@@ -1,0 +1,10 @@
+.history/
+public/
+node_modules/
+resources/_gen/
+static/data-index.json
+static/search-index.json
+.hugo_build.lock
+.yarn
+.yarnrc.yml
+
