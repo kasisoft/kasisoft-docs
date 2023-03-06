@@ -1,12 +1,3 @@
-[[plugins]]
-package = "/plugins/netlify-plugin-pretty-printing"
-
-[[plugins]]
-package = "/plugins/netlify-plugin-build-crc32"
-
-[[plugins]]
-package = "/plugins/netlify-plugin-build-finalize"
-
 [build]
   publish = "public"
   command = "hugo"
