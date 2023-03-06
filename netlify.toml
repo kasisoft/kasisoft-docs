@@ -2,9 +2,6 @@
 package = "/plugins/netlify-plugin-pretty-printing"
 
 [[plugins]]
-package = "/plugins/netlify-plugin-build-search-index"
-
-[[plugins]]
 package = "/plugins/netlify-plugin-build-crc32"
 
 [[plugins]]
