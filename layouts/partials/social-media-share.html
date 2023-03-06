@@ -1,0 +1,14 @@
+<div class="ks-share">
+  <ul>
+      <li>
+          <a href="https://twitter.com/intent/tweet?text=Find%20out%20about%20{{ .Title | safeURL }}:%20{{ .Permalink | safeURL }}" target="_blank" title="Share on Twitter" aria-label="Share on Twitter">
+              <i aria-hidden="true" class="fab fa-twitter"></i>&nbsp;<span>Twitter</span>
+          </a>
+      </li>
+      <li>
+          <a href="http://www.facebook.com/sharer.php?u={{ .Permalink | safeURL }}" target="_blank" title="Share on Facebook" aria-label="Share on Facebook">
+              <i aria-hidden="true" class="fab fa-facebook"></i>&nbsp;<span>Facebook</span>
+          </a>
+      </li>
+  </ul>
+</div>

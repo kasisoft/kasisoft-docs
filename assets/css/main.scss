@@ -2,9 +2,33 @@
 @import '2-constants/constants-dir';
 @import '3-base/css-properties';
 
-/* see search.html */
-.ks-centered {
+/* see menu-footer.html */
+.ks-share {
+  text-align: left;
+}
+
+#footer {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  height: 7.25rem;
   text-align: center;
+  min-width: 14.375rem;
+  max-width: 18.75rem;
+
+  > p {
+    margin: 0;
+  }
+
+}
+
+/* see search.html */
+.ks-thx {
+  margin-top: auto !important;
 }
 
 .ks-hr  {
