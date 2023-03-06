@@ -1,0 +1,7 @@
+baseURL:                                     https://docs.kasisoft.com
+title:                                      'Kasisoft Docs'
+theme:                                      'relearn'
+metaDataFormat:                             'yaml'
+enableGitInfo:                              true
+defaultContentLanguage:                     'en'
+languageCode:                               'en-gb'
