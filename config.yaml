@@ -25,6 +25,7 @@ params:
 
   devmode:                                  false
   author:                                   'Daniel Kasmeroglu'
+  buy_me_a_coffee:                          'decexafi'
   description:                              'Collection of documentations for Kasisoft projects'
 
   titleSeparator:                           '-'
