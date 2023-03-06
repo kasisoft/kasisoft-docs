@@ -23,7 +23,7 @@ outputs:
 
 params:
 
-  devmode:                                  true
+  devmode:                                  false
   author:                                   'Daniel Kasmeroglu'
   description:                              'Collection of documentations for Kasisoft projects'
 
