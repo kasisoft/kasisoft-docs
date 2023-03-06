@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+.ks-hr  {
+  margin-top: 16px !important;
+  margin-bottom: 4px !important;
+}
+
+
 /* see logo.html */
 .ks-logo > a {
   display: flex !important;
@@ -39,5 +45,16 @@
     > h1 {
       margin-left: 0;
     }
+  }
+}
+
+#header-wrapper {
+  padding-bottom: 0;
+}
+
+#content-wrapper  {
+  padding-top: 0;
+  > ul {
+    padding-left: 1rem !important;
   }
 }
