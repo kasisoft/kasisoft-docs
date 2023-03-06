@@ -28,7 +28,7 @@ params:
   description:                              'Collection of documentations for Kasisoft projects'
 
   titleSeparator:                           '-'
-  showVisitedLinks:                         true
+  showVisitedLinks:                         false
   alwaysopen:                               true
   collapsibleMenu:                          true
   mermaidInitialize:                        '{ \"securityLevel\": \"loose\" }'
