@@ -1,0 +1,43 @@
+@import '1-plugins/plugins-dir';
+@import '2-constants/constants-dir';
+@import '3-base/css-properties';
+
+/* see search.html */
+.ks-centered {
+  text-align: center;
+}
+
+/* see logo.html */
+.ks-logo > a {
+  display: flex !important;
+  flex-wrap: wrap;
+  > img {
+    width: 60px;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  > h1 {
+    font-size: 42px;
+    /* font-weight: 500; */
+    margin-left: 5px;
+    > span:first-of-type {
+      color: $color-blanchedalmond;
+    }
+    > span:last-of-type {
+      color: $color-accent;
+    }
+  }
+}
+
+@media only all and (max-width: 60rem) {
+  .ks-logo > a {
+    > img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    > h1 {
+      margin-left: 0;
+    }
+  }
+}

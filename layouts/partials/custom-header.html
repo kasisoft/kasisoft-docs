@@ -1,0 +1,7 @@
+{{ if .Site.Params.devmode }}
+  {{ $style := resources.Get "css/main.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}"/>
+{{ else }}
+  {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}"/>
+{{ end }}

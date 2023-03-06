@@ -4,4 +4,36 @@ theme:                                      'relearn'
 metaDataFormat:                             'yaml'
 enableGitInfo:                              true
 defaultContentLanguage:                     'en'
-languageCode:                               'en-gb'
+languageCode:                               'en'
+canonifyURLs:                               true
+relativeURLs:                               true
+uglyURLs:                                   false
+disableHugoGeneratorInject:                 true
+
+
+outputs:
+  home:
+    - html
+    - rss
+    - search
+    - searchpage
+    # - print
+  # section
+  # page
+
+params:
+
+  devmode:                                  true
+  author:                                   'Daniel Kasmeroglu'
+  description:                              'Collection of documentations for Kasisoft projects'
+
+  titleSeparator:                           '-'
+  showVisitedLinks:                         true
+  alwaysopen:                               true
+  collapsibleMenu:                          true
+  mermaidInitialize:                        '{ \"securityLevel\": \"loose\" }'
+  mermaidZoom:                              true
+  disableLandingPageButton:                 true
+  disableToc:                               false
+  alwaysopen:                               true
+  themeVariant:                             auto
